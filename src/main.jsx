@@ -51,13 +51,7 @@ function App() {
       <a className="guide-link" href="#how-it-works">사용 안내 <span aria-hidden="true">↗</span></a>
     </header>
 
-    <main>
-      <section className="hero" aria-labelledby="title">
-        <div className="eyebrow"><span />한글에서 영문으로, 한 번에</div>
-        <h1 id="title">한글 그대로,<br className="mobile-break" /> <span>영문 자판으로.</span></h1>
-        <p>한글로 입력하면, 같은 키의 영문으로 바꿔드려요.<br />영문, 숫자, 기호는 입력한 그대로 유지됩니다.</p>
-      </section>
-
+    <main aria-label="한영 자판 변환기">
       <section className="converter" aria-label="한영 자판 변환">
         <div className="input-pane pane">
           <div className="pane-header"><label htmlFor="korean-input"><span className="language-icon">가</span>한글 입력</label><span className="language-code">KOREAN</span></div>
